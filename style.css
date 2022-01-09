@@ -1,0 +1,94 @@
+:root{
+    --very-dark-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-blue: hsl(210, 46%, 95%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--light-blue);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.container{
+    background: var(--white);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.drawers{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 30px;
+}
+
+.container-text{
+    margin: 18px;
+    
+}
+
+.title{
+    color: var(--very-dark-blue);
+    margin-bottom: 10px;
+}
+
+.text{
+    color: var(--desaturated-dark-blue);
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.profile_avatar{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.avatar-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_name{
+    color: var(--very-dark-blue);
+}
+
+.profile_date{
+    color: var(--grayish-blue);
+}
+
+.share-button{
+    font-size: 20px;
+    background: var(--light-blue);
+    border-radius: 50%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--grayish-blue);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
